@@ -1,0 +1,1 @@
+print("SentinelStream service started")
