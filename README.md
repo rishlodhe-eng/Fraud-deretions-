@@ -5,3 +5,4 @@ Week 1 Deliverables:
 - PostgreSQL database schema
 - Table relationships
 - Python database connection code
+
