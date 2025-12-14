@@ -1,1 +1,0 @@
-print("SentinelStream service started")
