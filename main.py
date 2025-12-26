@@ -42,3 +42,18 @@ async def validate_transaction(txn: TransactionRequest):
         "risk_score": 0.15,
         "message": "Transaction processed successfully"
     }
+
+@app.post(
+    "/transaction",
+    response_model=TransactionResponse,
+    summary="Process Transaction",
+    tags=["Transactions"]
+)
+async def process_transaction(txn: TransactionRequest):
+    return {
+        "transaction_id": txn.transaction_id,
+        "status": "SUCCESS",
+        "risk_score": 0.10,
+        "message": "Transaction processed successfully"
+    }
+
