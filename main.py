@@ -50,10 +50,16 @@ async def validate_transaction(txn: TransactionRequest):
     tags=["Transactions"]
 )
 async def process_transaction(txn: TransactionRequest):
+
+    logging.info(f"Processing transaction: {txn.transaction_id}")
+
     return {
         "transaction_id": txn.transaction_id,
         "status": "SUCCESS",
         "risk_score": 0.10,
         "message": "Transaction processed successfully"
     }
+
+
+
 
