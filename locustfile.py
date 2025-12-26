@@ -5,7 +5,7 @@ class User(HttpUser):
 
     @task
     def test_api(self):
-        self.client.post("/transaction", json={
-            "user_id": "test",
+        self.client.post("/transactions/validate", json={
+            "transaction_id": "TXN001",
             "amount": 100
         })
