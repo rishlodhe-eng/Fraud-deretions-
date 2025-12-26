@@ -1,5 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from schemas import TransactionRequest, TransactionResponse
+import logging
+logging.basicConfig(level=logging.INFO)
+
+logging.info("Transaction API called")
+
 
 app = FastAPI(
     title="Transaction Processing API",
