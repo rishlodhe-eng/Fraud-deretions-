@@ -24,7 +24,7 @@ designed for a Neo-bank use case.
 Admin dashboard scaffolding
  Initial project setup
 
-## Week 2 – Person 2 (Redis & Rate Limiting)
+## **Week 2 – Person 2 (Redis & Rate Limiting)**
  Redis caching for user profiles
  Idempotency key handling
  FastAPI-Limiter integration
