@@ -36,6 +36,14 @@ You should see output like:
 VITE v7.x.x  ready in xxxx ms
 ➜  Local:   http://localhost:5173/
 
+## Week 2 Progress
+- Backend transaction handling using FastAPI
+- Input validation using Pydantic schemas
+- Basic logging added for audit tracking
+- Load testing setup using Locust for high traffic simulation
+
+
+
 
 
 
